@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-logo-img img{
+    height: 28px;
+    width: 28px;
+    display: block;
+}
+
+.logo-text{
+    margin: 0;
+    font-size: 11px;
+    font-weight: 700;
+    color: #0D1B2A;
+    line-height: 1;
+}
+.logo-text p{
+    margin: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #0D1B2A;
+    line-height: 1;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 10px;
+    margin-top: 5px auto;
+    gap: 25px;
+}
+
+.navbar-menu a:hover{
+    color: rgb(52, 52, 17);
+}
+
+.common-btn{
+    text-decoration: none;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 4px 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.common-btn:hover{
+    color: bisque;
+}
+
+
+
+/*hERO Css*/
+.hero-section{
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 560px;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-content{
+    max-width: 700px;
+    text-align: center;
+
+}
+
+.hero-title{
+    font-size: 52px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.hero-description{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+
+}
+
+.hero-btn{
+    text-align: center;
+    text-decoration: none;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 200px;
+
+}
+
+.hero-btn:hover{
+    color: bisque;
+}
+
