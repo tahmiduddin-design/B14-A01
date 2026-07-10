@@ -140,7 +140,7 @@
 }
 .speakers-section h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 50px;
 }
 .speaker-parent{
@@ -191,7 +191,7 @@
 
 .pricing-section h2{
     text-align: center;
-    font-size: 42px;
+    font-size: 35px;
     color: #0D1B2A;
     margin-bottom: 10px;
 }
@@ -285,10 +285,92 @@
 
 
 .price-btn:hover{
-    opacity: 0.9s;
+    color: #575757;
+}
+
+.newsletter-section{
+    padding: 60px;
+    background: #0D1B2A;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.newsletter-section h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.newsletter-subtitle{
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.newsletter-form input{
+    flex: 1;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.newsletter-form button{
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.newsletter-form :hover{
+    color: #888888;
 }
 
 
 
+.site-footer{
+    background-color: #0D1B2A;
+    padding: 25px 0;
 
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.site-footer p{
+    color:#888888;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover{
+    color: gray;
+}
 
