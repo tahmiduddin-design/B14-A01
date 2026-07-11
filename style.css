@@ -337,7 +337,11 @@ body{
     color: #888888;
 }
 
-
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 .site-footer{
     background-color: #0D1B2A;
@@ -373,4 +377,13 @@ body{
 .footer-links a:hover{
     color: gray;
 }
+.footer-social{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.footer-social img{
+    height: 20px;
+    width: 20px;
 
+}
