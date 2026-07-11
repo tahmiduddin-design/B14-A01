@@ -27,25 +27,11 @@ body{
 }
 
 .navbar-logo-img img{
-    height: 28px;
-    width: 28px;
-    display: block;
+    height: 50%;
+    width: 70%;
+
 }
 
-.logo-text{
-    margin: 0;
-    font-size: 11px;
-    font-weight: 700;
-    color: #0D1B2A;
-    line-height: 1;
-}
-.logo-text p{
-    margin: 2px;
-    font-size: 11px;
-    font-weight: 700;
-    color: #0D1B2A;
-    line-height: 1;
-}
 
 .navbar-menu{
     display: flex;
@@ -68,11 +54,13 @@ body{
 .common-btn{
     text-decoration: none;
     background-color: #1D4ED8;
-    color: #FFFFFF;
+    color: #ffffff;
     border-radius: 5px;
-    padding: 4px 4px;
+    padding: 12px 12px;
     font-size: 12px;
     cursor: pointer;
+    display: block;
+    font-weight: 700;
 }
 
 .common-btn:hover{
@@ -140,11 +128,11 @@ body{
 
 
 .speakers-section{
-    padding: 60px 60px;
+    padding: 55.5px 55.5px;
 }
 .speakers-section h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 56px;
     margin-bottom: 50px;
 }
 .speaker-parent{
@@ -173,9 +161,10 @@ body{
     font-size: 12px;
     margin: 18px 20px 8px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .speaker-card h3{
-    font-size: 24px;
+    font-size: 20px;
     color: #0D1B2A;
     margin: 0px 20px 8px;
    
@@ -189,13 +178,13 @@ body{
  
 
 .pricing-section{
-    padding: 8px 0;
+    padding: 9.5px 0;
     margin: 0 60px;
 }
 
 .pricing-section h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 48px;
     color: #0D1B2A;
     margin-bottom: 10px;
 }
@@ -209,7 +198,7 @@ body{
 .pricing-parent{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    gap: 22px;
 }
 
 .pricing-card{
@@ -241,6 +230,13 @@ body{
     color: #333333;
 }
 
+.pricing-card ul li::marker{
+    color: #2563eb
+}
+.pricing-card h3{
+    font-size: 30px;
+}
+
 .pricing-card .common-btn{
     width: 100%;
     margin-top: 20px;
@@ -248,8 +244,9 @@ body{
 
 .pro-card{
     background-color:  #0F172A;
-    color: #93C5FD;
+    color: white;
     border: none;
+    font-size: ;
 
 }
 
@@ -258,7 +255,7 @@ body{
 }
 
 .pro-card li{
-    color: white;
+    color: #ffffffFF;
 }
 
 .price-btn{
@@ -273,7 +270,6 @@ body{
     font-size: 15px;
     box-shadow: none;
     outline: none;
-    transition: all 0.2s ease;
     text-decoration: none;
     padding: 7px 7px;
 
